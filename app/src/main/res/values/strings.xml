@@ -15,4 +15,10 @@
     <string name="btn_FoodRequests">Food Requests</string>
     <string name="btn_NeederRegistration">Needer Registration</string>
     <string name="btn_UserDetails">User Details</string>
+    <string name="btn_FindFood">Find Food</string>
+    <string name="btn_Donor">Donor</string>
+    <string name="btn_Login">Login</string>
+    <string name="btn_RateUs">Rate Us</string>
+    <string name="btn_Vacancies">Vacancies</string>
+    <string name="btn_HowToUse">How To Use</string>
 </resources>
