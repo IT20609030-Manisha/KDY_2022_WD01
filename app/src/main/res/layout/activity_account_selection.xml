@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSelection">
+
+    <Button
+        android:id="@+id/btnDonar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#"
+        android:backgroundTint="#F4EEEE"
+        android:shadowColor="#0C0C0C"
+        android:text="@string/btnDonor"
+        android:textColor="#050505"
+        app:layout_constraintEnd_toStartOf="@+id/btnNeeder"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/btnNeeder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F4EEEE"
+        android:text="@string/btnNeeder"
+        android:textColor="#050505"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnDonar"
+        app:layout_constraintEnd_toStartOf="@+id/btnDriver"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnDonar" />
+
+    <Button
+        android:id="@+id/btnDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F4EEEE"
+        android:text="@string/btnDriver"
+        android:textColor="#070707"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnNeeder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnNeeder" />
+
+    <TextView
+        android:id="@+id/tvAccount_Selection"
+        android:layout_width="278dp"
+        android:layout_height="45dp"
+        android:fontFamily="casual"
+        android:text="How do you like to join with us....."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="25dp"
+        android:text="Already Have an Account"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <TextView
+        android:id="@+id/tvLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogIn"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="186dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

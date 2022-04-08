@@ -21,4 +21,10 @@
     <string name="btn_RateUs">Rate Us</string>
     <string name="btn_Vacancies">Vacancies</string>
     <string name="btn_HowToUse">How To Use</string>
+    <string name="btnCeateAccount">CREATE AN ACCOUNT</string>
+    <string name="btnGmail">Login with gmail</string>
+    <string name="tvForgotPassword">Forgot Password?</string>
+    <string name="etEmailHint">Enter email</string>
+    <string name="etPassword">Enter Password</string>
+    <string name="login">LOGIN</string>
 </resources>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KDY_2022_WD01">
         <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
             android:name=".AdminDashboard"
             android:exported="false" />
         <activity
